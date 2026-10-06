@@ -35,9 +35,9 @@ export const AdminView: React.FC<AdminViewProps> = ({ onClose }) => {
     setIsLoggingIn(true);
     try {
       const res = await api.adminLogin(email.trim(), password);
-      if (res.success && res.data?.token) {
-        localStorage.setItem('niraj_portfolio_admin_token', res.data.token);
-        setToken(res.data.token);
+      if (res.success && res.token) {
+        localStorage.setItem('niraj_portfolio_admin_token', res.token);
+        setToken(res.token);
       } else {
         setLoginError(res.message || 'Invalid email or password');
       }

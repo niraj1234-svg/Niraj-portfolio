@@ -82,6 +82,7 @@ export interface ContactPayload {
 export interface ApiResponse<T = any> {
   success: boolean;
   data?: T;
+  token?: string;
   count?: number;
   message?: string;
   errors?: Array<{ field: string; message: string }>;
