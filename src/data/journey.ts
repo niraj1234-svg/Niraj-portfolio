@@ -1,0 +1,88 @@
+import type { JourneyStage } from '../types';
+
+export const JOURNEY_STAGES: JourneyStage[] = [
+  {
+    id: 'foundations',
+    stageNumber: '01',
+    phase: 'FOUNDATIONS',
+    status: 'LEARNED',
+    description: 'Mastering the core underlying protocols and operating systems that power the internet and modern server environments.',
+    items: [
+      'Linux Administration & Bash',
+      'TCP/IP & OSI Model',
+      'DNS & HTTP/HTTPS Handshakes',
+      'SSH & Key Authentication',
+      'Git Version Control & GitHub',
+    ],
+  },
+  {
+    id: 'cloud',
+    stageNumber: '02',
+    phase: 'CLOUD INFRASTRUCTURE',
+    status: 'PRACTICED',
+    description: 'Hands-on practice configuring fundamental cloud compute, storage, security, and virtual networking on AWS.',
+    items: [
+      'AWS EC2 Compute Instances',
+      'IAM Policies & Role-Based Access',
+      'S3 Object Storage & Bucket Security',
+      'VPC Virtual Private Clouds & Subnets',
+      'Security Groups & Network ACLs',
+    ],
+  },
+  {
+    id: 'containerization',
+    stageNumber: '03',
+    phase: 'CONTAINERIZATION',
+    status: 'PRACTICED',
+    description: 'Packaging applications and dependencies into predictable, portable, and isolated environments.',
+    items: [
+      'Docker Core Architecture & Daemon',
+      'Writing Optimized Dockerfiles',
+      'Multi-Stage Container Builds',
+      'Container Networking & Volumes',
+      'Docker Compose for Multi-Service Setups',
+    ],
+  },
+  {
+    id: 'automation',
+    stageNumber: '04',
+    phase: 'AUTOMATION & CI/CD',
+    status: 'BUILDING',
+    description: 'Automating build pipelines, test triggers, and continuous deployment workflows to eliminate manual release errors.',
+    items: [
+      'GitHub Actions Workflow Files',
+      'Automated Testing Pipelines',
+      'Continuous Delivery Triggers',
+      'Shell Scripting for Deployment Hooks',
+      'Environment Secrets & Safe Config Injection',
+    ],
+  },
+  {
+    id: 'building',
+    stageNumber: '05',
+    phase: 'BUILDING REAL SYSTEMS',
+    status: 'BUILDING',
+    description: 'Translating conceptual knowledge into active production systems with real users, live traffic, and operational challenges.',
+    items: [
+      'KALA Production E-Commerce Architecture',
+      'Multi-Tier Cloud Hosting (Vercel + Render + Atlas)',
+      'DNS Management & Custom Domain Resolution',
+      'Upcoming DevOps Flagship Infrastructure',
+      'Troubleshooting Production Outages & Bottlenecks',
+    ],
+  },
+  {
+    id: 'next',
+    stageNumber: '06',
+    phase: 'PLANNED ROADMAP',
+    status: 'PLANNED',
+    description: 'Targeted technical competencies currently on the forward learning roadmap for large-scale enterprise infrastructure.',
+    items: [
+      'Kubernetes (K8s) Cluster Orchestration',
+      'Terraform Infrastructure as Code (IaC)',
+      'Prometheus & Grafana Observability',
+      'Advanced Cloud Security & Zero Trust',
+      'Service Mesh & Distributed Tracing',
+    ],
+  },
+];

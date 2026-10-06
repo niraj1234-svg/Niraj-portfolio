@@ -1,0 +1,76 @@
+<svg width="640" height="400" viewBox="0 0 640 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="400" fill="#111318"/>
+  <defs>
+    <linearGradient id="kg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5b8def" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3b6dcf" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="kg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b9fea"/>
+      <stop offset="100%" stop-color="#1a40d8"/>
+    </linearGradient>
+    <pattern id="grid1" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#5b8def" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#grid1)"/>
+  <rect x="24" y="24" width="592" height="352" rx="16" fill="#161822" stroke="#2a2e3a" stroke-width="1.5"/>
+
+  <!-- Top bar -->
+  <rect x="24" y="24" width="592" height="48" rx="16" fill="#1c1f2e"/>
+  <rect x="24" y="56" width="592" height="16" fill="#1c1f2e"/>
+  <line x1="24" y1="72" x2="616" y2="72" stroke="#2a2e3a" stroke-width="1"/>
+
+  <circle cx="48" cy="48" r="5" fill="#f87171"/>
+  <circle cx="64" cy="48" r="5" fill="#fbbf24"/>
+  <circle cx="80" cy="48" r="5" fill="#34d399"/>
+
+  <rect x="110" y="38" width="220" height="20" rx="6" fill="#111318" stroke="#2a2e3a" stroke-width="1"/>
+  <text x="122" y="52" fill="#8b8fa3" font-family="ui-monospace, monospace" font-size="11" font-weight="600">https://kalaofficial.store</text>
+
+  <!-- Status pill -->
+  <rect x="490" y="38" width="102" height="20" rx="10" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="502" cy="48" r="3" fill="#34d399"/>
+  <text x="512" y="52" fill="#34d399" font-family="ui-monospace, monospace" font-size="10" font-weight="700" letter-spacing="0.05em">PRODUCTION</text>
+
+  <!-- Center Hero Area -->
+  <g transform="translate(60, 105)">
+    <text x="0" y="36" fill="#f0f1f5" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="700" letter-spacing="-0.02em">KALA STORE</text>
+    <text x="0" y="66" fill="#8b8fa3" font-family="'Poppins', sans-serif" font-size="14" font-weight="400">Print-On-Demand Sportswear &amp; Active Apparel</text>
+
+    <!-- Stat boxes -->
+    <rect x="0" y="90" width="150" height="64" rx="8" fill="#111318" stroke="#2a2e3a" stroke-width="1"/>
+    <text x="16" y="116" fill="#5b8def" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700">500+</text>
+    <text x="16" y="138" fill="#8b8fa3" font-family="ui-monospace, monospace" font-size="10" font-weight="600" letter-spacing="0.08em">ORDERS FULFILLED</text>
+
+    <rect x="166" y="90" width="150" height="64" rx="8" fill="#111318" stroke="#2a2e3a" stroke-width="1"/>
+    <text x="182" y="116" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700">~60</text>
+    <text x="182" y="138" fill="#8b8fa3" font-family="ui-monospace, monospace" font-size="10" font-weight="600" letter-spacing="0.08em">WEB STORE ORDERS</text>
+
+    <rect x="332" y="90" width="188" height="64" rx="8" fill="#111318" stroke="#2a2e3a" stroke-width="1"/>
+    <text x="348" y="116" fill="#fbbf24" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700">Vercel + Render</text>
+    <text x="348" y="138" fill="#8b8fa3" font-family="ui-monospace, monospace" font-size="10" font-weight="600" letter-spacing="0.08em">FULL CLOUD DEPLOY</text>
+
+    <!-- Tech Stack badges -->
+    <g transform="translate(0, 185)">
+      <rect x="0" y="0" width="60" height="24" rx="6" fill="#1c1f2e" stroke="#2a2e3a" stroke-width="1"/>
+      <text x="30" y="16" text-anchor="middle" fill="#c8cdd8" font-family="ui-monospace, monospace" font-size="10" font-weight="600">React</text>
+
+      <rect x="68" y="0" width="56" height="24" rx="6" fill="#1c1f2e" stroke="#2a2e3a" stroke-width="1"/>
+      <text x="96" y="16" text-anchor="middle" fill="#c8cdd8" font-family="ui-monospace, monospace" font-size="10" font-weight="600">Vite</text>
+
+      <rect x="132" y="0" width="86" height="24" rx="6" fill="#1c1f2e" stroke="#2a2e3a" stroke-width="1"/>
+      <text x="175" y="16" text-anchor="middle" fill="#c8cdd8" font-family="ui-monospace, monospace" font-size="10" font-weight="600">TypeScript</text>
+
+      <rect x="226" y="0" width="70" height="24" rx="6" fill="#1c1f2e" stroke="#2a2e3a" stroke-width="1"/>
+      <text x="261" y="16" text-anchor="middle" fill="#c8cdd8" font-family="ui-monospace, monospace" font-size="10" font-weight="600">Node.js</text>
+
+      <rect x="304" y="0" width="76" height="24" rx="6" fill="#1c1f2e" stroke="#2a2e3a" stroke-width="1"/>
+      <text x="342" y="16" text-anchor="middle" fill="#c8cdd8" font-family="ui-monospace, monospace" font-size="10" font-weight="600">Express</text>
+
+      <rect x="388" y="0" width="132" height="24" rx="6" fill="#1c1f2e" stroke="#2a2e3a" stroke-width="1"/>
+      <text x="454" y="16" text-anchor="middle" fill="#c8cdd8" font-family="ui-monospace, monospace" font-size="10" font-weight="600">MongoDB Atlas</text>
+    </g>
+  </g>
+</svg>
